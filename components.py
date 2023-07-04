@@ -1,9 +1,5 @@
 import numpy as np
 
-class Diffuser():
-    def __init__(self):
-        pass
-
 class Nozzle():
     def __init__(self, nozzle_type, m, Pa, P0, T0, Cp, eta, R = 287.053):
         gamma = Cp*1000/(Cp*1000-R)
